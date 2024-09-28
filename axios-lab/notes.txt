@@ -1,0 +1,8 @@
+npx create-react-app <projectname>
+cd <projetname>
+npm install axios
+npm install -g json.server for global installation to work any computer
+npm install json-server
+create a file db.json and enter details of users 
+create components folder under source folder
+create PersonList.js ufile under components
