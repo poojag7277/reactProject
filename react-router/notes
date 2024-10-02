@@ -1,0 +1,25 @@
+{
+    notes from axios lab installation
+    .
+    npx create-react-app <projectname>
+cd <projetname>
+npm install axios
+npm install -g json-server for global installation to work any computer
+if required   npm install json-server
+create a file db.json and enter details of users 
+create components folder under source folder
+create PersonList.js ufile under components
+.
+to run the file use npm run start
+.
+.
+git pull directly when using the same workspace in different file
+.
+port is 3001
+try git pull 
+then use /persons in the url always
+in terminal do json-server --watch db.json --port 3001 
+if doent work  npm install -g json-server  npm install json-server together
+after json server command is run succeffully split the terminal and
+run npm run start in the another terminal
+}
