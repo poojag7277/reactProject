@@ -39,3 +39,6 @@
          npm run start in the another split terminal
     )
 }
+lastly git add .
+git commit -m ""
+git push
