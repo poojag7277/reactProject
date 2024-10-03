@@ -8,6 +8,7 @@ import Notification from './Notification';
 import '../styles/PersonList.css'; // Component-specific styles
 
 const API_URL = process.env.REACT_APP_API_URL;
+console.log(API_URL);
 
 const PersonList = () => {
   const [people, setPeople] = useState([]);
@@ -17,6 +18,7 @@ const PersonList = () => {
     const fetchPeople = async () => {
       try {
         const response = await axios.get(API_URL);
+        console.log(response);
         setPeople(response.data);
       } catch (error) {
         console.error('Error fetching people:', error);

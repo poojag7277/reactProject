@@ -9,7 +9,7 @@ const DeletePerson = ({ id, onDelete }) => {
 
   return (
     <button className="btn btn-delete" onClick={handleDelete}>
-      Delete
+      Delete done 
     </button>
   );
 };

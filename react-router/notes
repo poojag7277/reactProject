@@ -42,3 +42,20 @@
 lastly git add .
 git commit -m ""
 git push
+
+(
+  ```  to check whether the system has connected succesufully using console.log print statement ```
+* const API_URL = process.env.REACT_APP_API_URL;
+    * console.log(API_URL);
+    use this in all the pages
+    this gives the link that the  system has connected successfully
+
+    also
+  
+    console.log(response);
+    is used to check whether the data entered has successfully consoled by showing the entered data manually in array
+)
+` css fle import and using `
+{
+    to connect to a css file import the css file ,use a class name and make css rules using the classname
+}
