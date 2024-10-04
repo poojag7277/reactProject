@@ -1,20 +1,3 @@
-// // src/components/Notification.js
-
-// import React from 'react';
-
-// const Notification = ({ message, onClose }) => {
-//   const notificationClass = `notification ${message.type}`;
-
-//   return (
-//     <div className={notificationClass}>
-//       {message.text}
-//       <button onClick={onClose} className="btn btn-cancel">Close</button>
-//     </div>
-//   );
-// };
-
-// export default Notification;
-
 import React from 'react';
 import axios from 'axios';
 
@@ -33,3 +16,20 @@ const notification = () => {
     };
     
     export default notification;
+// // src/components/Notification.js
+
+// import React from 'react';
+
+// const Notification = ({ message, onClose }) => {
+//   const notificationClass = `notification ${message.type}`;
+
+//   return (
+//     <div className={notificationClass}>
+//       {message.text}
+//       <button onClick={onClose} className="btn btn-cancel">Close</button>
+//     </div>
+//   );
+// };
+
+// export default Notification;
+
