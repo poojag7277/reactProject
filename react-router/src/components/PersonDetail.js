@@ -1,3 +1,16 @@
+import React  from 'react';
+
+const PersonDetail = () => {
+    const API_URL=process.env.REACT_APP_API_URL
+
+    return(
+        <div>
+            <h2>to add details about the person</h2>
+        </div>
+    )
+
+}
+export default PersonDetail;
 // // src/components/PersonDetail.js
 
 // import React, { useEffect, useState } from 'react';
@@ -64,16 +77,3 @@
 
 // export default PersonDetail;
 
-import React  from 'react';
-
-const PersonDetail = () => {
-    const API_URL=process.env.REACT_APP_API_URL
-
-    return(
-        <div>
-            <h2>to add details about the person</h2>
-        </div>
-    )
-
-}
-export default PersonDetail;
