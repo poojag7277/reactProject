@@ -12,17 +12,18 @@ const PersonList = () => {
     const [notification,setNotification] = useState('');
 
     useEffect(() => {
-        const fetchPeople = async() => {
-            try{
-                const response = await axios.get(API_URL);
-                console.log(response);
-                setPeople(response.data);
-            }catch(error){
-                console.error('Error fetching people' ,error)
-            }
-        };
-        fetchPeople;
-    },[]);
+      const fetchPeople = async () => {
+        try {
+          const response = await axios.get(API_URL);
+          console.log(response);
+          setPeople(response.data);
+        } catch (error) {
+          console.error('Error fetching people:', error);
+        }
+      };
+      fetchPeople();
+    }, []);
+    
 
     console.log(output);
   console.log(API_URL)
@@ -60,18 +61,3 @@ const PersonList = () => {
 
 export default PersonList;
 
-//   useEffect(() => {
-//     const fetchPeople = async () => {
-//       try {
-//         const response = await axios.get(API_URL);
-//         console.log(response);
-//         setPeople(response.data);
-//       } catch (error) {
-//         console.error('Error fetching people:', error);
-//       }
-//     };
-//     fetchPeople();
-//   }, []);
-
-
-// export default PersonList;
