@@ -63,7 +63,7 @@ import React from 'react';
 import axios from 'axios';
 
 const API_URL=process.env.REACT_APP_API_URL
-const output = axios.get("/persons");
+const output = axios.get("https://5000-poojag7277-reactproject-8zgqek5boeu.ws-us116.gitpod.io/persons");
 const PersonList = () => {
     console.log(output);
   console.log(API_URL)
