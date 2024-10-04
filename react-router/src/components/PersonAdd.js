@@ -1,4 +1,16 @@
+import React from 'react';
 
+const PersonAdd = () => {
+    const API_URL=process.env.REACT_APP_API_URL
+
+    return(
+        <div>
+            <h2>to add info about the person in person add</h2>
+        </div>
+    )
+
+}
+export default PersonAdd;
 // import React, { useState } from 'react';
 // import axios from 'axios';
 // import { useNavigate } from 'react-router-dom';
@@ -73,16 +85,3 @@
 
 // export default PersonAdd;
 
-import React from 'react';
-
-const PersonAdd = () => {
-    const API_URL=process.env.REACT_APP_API_URL
-
-    return(
-        <div>
-            <h2>to add info about the person in person add</h2>
-        </div>
-    )
-
-}
-export default PersonAdd;
