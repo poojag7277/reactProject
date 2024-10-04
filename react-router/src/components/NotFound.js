@@ -1,14 +1,29 @@
 
-import React from 'react';
+// import React from 'react';
+
+// const NotFound = () => {
+//   return (
+//     <div className="not-found">
+//       <h2>404 - Not Found</h2>
+//       <p>The page you are looking for does not exist.</p>
+//       <a href="/" className="btn">Go Back Home</a>
+//     </div>
+//   );
+// };
+
+// export default NotFound;
+
+
+import React from 'react'
 
 const NotFound = () => {
-  return (
-    <div className="not-found">
-      <h2>404 - Not Found</h2>
-      <p>The page you are looking for does not exist.</p>
-      <a href="/" className="btn">Go Back Home</a>
-    </div>
-  );
-};
+  const API_URL=process.env.REACT_APP_API_URL
 
-export default NotFound;
+  return (
+    <div >
+      <h2>404 - Not Found</h2>
+      </div>
+    );
+  };
+  
+  export default NotFound;

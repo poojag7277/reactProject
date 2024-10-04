@@ -25,10 +25,12 @@
     cd ..
     enter data manually in all the files including app.css and app.js
     after everything is perpared
+``` to run the file ```
     (
         finally in terminal 
         run by using the command
         json-server --watch db.json --port 3001
+        or npm run db
     )
     touch .env
     after the json sevrer is run successfully a port will be generated
@@ -36,7 +38,7 @@
     then
     (
         after that command is run succeffully split the terminal and run
-         npm run start in the another split terminal
+         npm run app in the another split terminal
     )
 }
 lastly git add .
