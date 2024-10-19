@@ -5,6 +5,7 @@ import axios from 'axios';
 import '../styles/PersonEdit.css'; // Component-specific styles
 
 const API_URL = process.env.REACT_APP_API_URL;
+console.log(API_URL)
 
 const PersonEdit = () => {
   const { id } = useParams();

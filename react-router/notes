@@ -2,7 +2,7 @@
     npx create-react-app <projectname>
     cd <projetname>
     npm install axios
-    npm install -g json-server  npm install json-server
+    npm install -g json-server  json-server
     npm install react-router-dom
     create a db.json file and enter details of some user
     cd src/
@@ -31,6 +31,9 @@
         run by using the command
         json-server --watch db.json --port 3001
         or npm run db
+        if json file is not found then do
+            npm install -g json-server  json-server
+
     )
     touch .env
     after the json sevrer is run successfully a port will be generated

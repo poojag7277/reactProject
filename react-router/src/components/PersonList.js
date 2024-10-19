@@ -6,7 +6,7 @@ import Notification from './Notification'
 import '../styles/PersonList.css';
 
 const API_URL=process.env.REACT_APP_API_URL
-const output = axios.get("https://5000-poojag7277-reactproject-8zgqek5boeu.ws-us116.gitpod.io/persons");
+const output = axios.get("https://5000-poojag7277-reactproject-6s129bhq3ab.ws-us116.gitpod.io/persons");
 const PersonList = () => {
     const [people,setPeople] = useState([]);
     const [notification,setNotification] = useState('');

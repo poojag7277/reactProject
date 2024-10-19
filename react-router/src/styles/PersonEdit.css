@@ -1,11 +1,10 @@
-
-/* src/styles/PersonEdit.css */
-
 .person-edit {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    font-size: 200%;
+    color: #dc143c;
 }
 
 .person-edit h1 {
@@ -37,7 +36,6 @@
     margin: 0 5px;
 }
 
-/* Responsive design */
 @media (max-width: 480px) {
     .person-actions {
         flex-direction: column;
