@@ -1,3 +1,13 @@
+```
+git pull
+npm run start(if anything missing will show)
+if missing,do: json-server --watch db.json --port 3001 
+then if no command found, try: npm install -g json-server  npm install json-server 
+after that again json-server --watch db.json --port 3001 and make the port 3001 public
+now got to PersonList.js and change the link copied from the port and replace the link then :
+split the terminal and do: npm run start 
+now git push.
+```
 npx create-react-app <projectname>
 cd <projetname>
 npm install axios
